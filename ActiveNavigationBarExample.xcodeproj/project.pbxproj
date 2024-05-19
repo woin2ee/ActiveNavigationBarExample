@@ -7,23 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA19175F2BF47D8F00A169EC /* Then+.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA19175E2BF47D8F00A169EC /* Then+.swift */; };
+		DA1917622BF47DBE00A169EC /* SFSafeSymbols in Frameworks */ = {isa = PBXBuildFile; productRef = DA1917612BF47DBE00A169EC /* SFSafeSymbols */; };
+		DA1917642BF488DD00A169EC /* RandomDogResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1917632BF488DD00A169EC /* RandomDogResponse.swift */; };
+		DA1917662BF4893D00A169EC /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1917652BF4893D00A169EC /* Network.swift */; };
+		DA1917682BF48B7300A169EC /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1917672BF48B7300A169EC /* Logger.swift */; };
+		DA19176E2BF6532700A169EC /* TaskStore in Frameworks */ = {isa = PBXBuildFile; productRef = DA19176D2BF6532700A169EC /* TaskStore */; };
+		DA1917702BF73D6900A169EC /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA19176F2BF73D6900A169EC /* DetailView.swift */; };
+		DA371EA12BF8A2D400E48DAF /* DetailNavigationItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA371EA02BF8A2D400E48DAF /* DetailNavigationItem.swift */; };
 		DA5F7FC22BF4526400DE7480 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5F7FC12BF4526400DE7480 /* AppDelegate.swift */; };
 		DA5F7FC42BF4526400DE7480 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5F7FC32BF4526400DE7480 /* SceneDelegate.swift */; };
-		DA5F7FC62BF4526400DE7480 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5F7FC52BF4526400DE7480 /* ViewController.swift */; };
-		DA5F7FC92BF4526400DE7480 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = DA5F7FC82BF4526400DE7480 /* Base */; };
+		DA5F7FC62BF4526400DE7480 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5F7FC52BF4526400DE7480 /* HomeViewController.swift */; };
 		DA5F7FCB2BF4526500DE7480 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA5F7FCA2BF4526500DE7480 /* Assets.xcassets */; };
 		DA5F7FCE2BF4526500DE7480 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = DA5F7FCD2BF4526500DE7480 /* Base */; };
+		DA5F7FD72BF4560A00DE7480 /* Inject in Frameworks */ = {isa = PBXBuildFile; productRef = DA5F7FD62BF4560A00DE7480 /* Inject */; };
+		DA5F7FDA2BF4565000DE7480 /* Then in Frameworks */ = {isa = PBXBuildFile; productRef = DA5F7FD92BF4565000DE7480 /* Then */; };
+		DA5F7FDD2BF4567500DE7480 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = DA5F7FDC2BF4567500DE7480 /* SnapKit */; };
+		DA5F7FE02BF4567E00DE7480 /* PinLayout in Frameworks */ = {isa = PBXBuildFile; productRef = DA5F7FDF2BF4567E00DE7480 /* PinLayout */; };
+		DA686FA82BF45AC700745D24 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA686FA72BF45AC700745D24 /* DetailViewController.swift */; };
+		DA686FAE2BF45F6200745D24 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA686FAD2BF45F6200745D24 /* ImageLoader.swift */; };
+		DA686FB12BF466B500745D24 /* ImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA686FB02BF466B500745D24 /* ImageTableViewCell.swift */; };
+		DA686FB42BF4761400745D24 /* UIKitPlus in Frameworks */ = {isa = PBXBuildFile; productRef = DA686FB32BF4761400745D24 /* UIKitPlus */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DA19175E2BF47D8F00A169EC /* Then+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Then+.swift"; sourceTree = "<group>"; };
+		DA1917632BF488DD00A169EC /* RandomDogResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomDogResponse.swift; sourceTree = "<group>"; };
+		DA1917652BF4893D00A169EC /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		DA1917672BF48B7300A169EC /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		DA19176F2BF73D6900A169EC /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		DA371EA02BF8A2D400E48DAF /* DetailNavigationItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailNavigationItem.swift; sourceTree = "<group>"; };
 		DA5F7FBE2BF4526400DE7480 /* ActiveNavigationBarExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ActiveNavigationBarExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA5F7FC12BF4526400DE7480 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DA5F7FC32BF4526400DE7480 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DA5F7FC52BF4526400DE7480 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DA5F7FC82BF4526400DE7480 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DA5F7FC52BF4526400DE7480 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		DA5F7FCA2BF4526500DE7480 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA5F7FCD2BF4526500DE7480 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DA5F7FCF2BF4526500DE7480 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA686FA72BF45AC700745D24 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		DA686FAD2BF45F6200745D24 /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		DA686FB02BF466B500745D24 /* ImageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +54,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA19176E2BF6532700A169EC /* TaskStore in Frameworks */,
+				DA1917622BF47DBE00A169EC /* SFSafeSymbols in Frameworks */,
+				DA686FB42BF4761400745D24 /* UIKitPlus in Frameworks */,
+				DA5F7FDD2BF4567500DE7480 /* SnapKit in Frameworks */,
+				DA5F7FD72BF4560A00DE7480 /* Inject in Frameworks */,
+				DA5F7FE02BF4567E00DE7480 /* PinLayout in Frameworks */,
+				DA5F7FDA2BF4565000DE7480 /* Then in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +86,63 @@
 		DA5F7FC02BF4526400DE7480 /* ActiveNavigationBarExample */ = {
 			isa = PBXGroup;
 			children = (
-				DA5F7FC12BF4526400DE7480 /* AppDelegate.swift */,
-				DA5F7FC32BF4526400DE7480 /* SceneDelegate.swift */,
-				DA5F7FC52BF4526400DE7480 /* ViewController.swift */,
-				DA5F7FC72BF4526400DE7480 /* Main.storyboard */,
+				DA686FB52BF4785600745D24 /* Domain */,
+				DA686FAC2BF45F4700745D24 /* Utility */,
+				DA686FAB2BF45AF100745D24 /* Application */,
+				DA686FAA2BF45AE700745D24 /* Home */,
+				DA686FA92BF45AE200745D24 /* Detail */,
 				DA5F7FCA2BF4526500DE7480 /* Assets.xcassets */,
 				DA5F7FCC2BF4526500DE7480 /* LaunchScreen.storyboard */,
 				DA5F7FCF2BF4526500DE7480 /* Info.plist */,
 			);
 			path = ActiveNavigationBarExample;
+			sourceTree = "<group>";
+		};
+		DA686FA92BF45AE200745D24 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				DA686FA72BF45AC700745D24 /* DetailViewController.swift */,
+				DA19176F2BF73D6900A169EC /* DetailView.swift */,
+				DA371EA02BF8A2D400E48DAF /* DetailNavigationItem.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		DA686FAA2BF45AE700745D24 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				DA5F7FC52BF4526400DE7480 /* HomeViewController.swift */,
+				DA686FB02BF466B500745D24 /* ImageTableViewCell.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		DA686FAB2BF45AF100745D24 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				DA5F7FC12BF4526400DE7480 /* AppDelegate.swift */,
+				DA5F7FC32BF4526400DE7480 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		DA686FAC2BF45F4700745D24 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				DA686FAD2BF45F6200745D24 /* ImageLoader.swift */,
+				DA19175E2BF47D8F00A169EC /* Then+.swift */,
+				DA1917652BF4893D00A169EC /* Network.swift */,
+				DA1917672BF48B7300A169EC /* Logger.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		DA686FB52BF4785600745D24 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				DA1917632BF488DD00A169EC /* RandomDogResponse.swift */,
+			);
+			path = Domain;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +161,15 @@
 			dependencies = (
 			);
 			name = ActiveNavigationBarExample;
+			packageProductDependencies = (
+				DA5F7FD62BF4560A00DE7480 /* Inject */,
+				DA5F7FD92BF4565000DE7480 /* Then */,
+				DA5F7FDC2BF4567500DE7480 /* SnapKit */,
+				DA5F7FDF2BF4567E00DE7480 /* PinLayout */,
+				DA686FB32BF4761400745D24 /* UIKitPlus */,
+				DA1917612BF47DBE00A169EC /* SFSafeSymbols */,
+				DA19176D2BF6532700A169EC /* TaskStore */,
+			);
 			productName = ActiveNavigationBarExample;
 			productReference = DA5F7FBE2BF4526400DE7480 /* ActiveNavigationBarExample.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +198,15 @@
 				Base,
 			);
 			mainGroup = DA5F7FB52BF4526400DE7480;
+			packageReferences = (
+				DA5F7FD52BF4560A00DE7480 /* XCRemoteSwiftPackageReference "Inject" */,
+				DA5F7FD82BF4565000DE7480 /* XCRemoteSwiftPackageReference "Then" */,
+				DA5F7FDB2BF4567500DE7480 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				DA5F7FDE2BF4567E00DE7480 /* XCRemoteSwiftPackageReference "PinLayout" */,
+				DA686FB22BF4761400745D24 /* XCRemoteSwiftPackageReference "UIKitPlus" */,
+				DA1917602BF47DBE00A169EC /* XCRemoteSwiftPackageReference "SFSafeSymbols" */,
+				DA19176C2BF6532700A169EC /* XCRemoteSwiftPackageReference "TaskStore" */,
+			);
 			productRefGroup = DA5F7FBF2BF4526400DE7480 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,7 +223,6 @@
 			files = (
 				DA5F7FCB2BF4526500DE7480 /* Assets.xcassets in Resources */,
 				DA5F7FCE2BF4526500DE7480 /* Base in Resources */,
-				DA5F7FC92BF4526400DE7480 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +233,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA5F7FC62BF4526400DE7480 /* ViewController.swift in Sources */,
+				DA19175F2BF47D8F00A169EC /* Then+.swift in Sources */,
+				DA5F7FC62BF4526400DE7480 /* HomeViewController.swift in Sources */,
 				DA5F7FC22BF4526400DE7480 /* AppDelegate.swift in Sources */,
+				DA686FB12BF466B500745D24 /* ImageTableViewCell.swift in Sources */,
+				DA1917642BF488DD00A169EC /* RandomDogResponse.swift in Sources */,
+				DA1917702BF73D6900A169EC /* DetailView.swift in Sources */,
+				DA1917682BF48B7300A169EC /* Logger.swift in Sources */,
+				DA371EA12BF8A2D400E48DAF /* DetailNavigationItem.swift in Sources */,
+				DA1917662BF4893D00A169EC /* Network.swift in Sources */,
+				DA686FAE2BF45F6200745D24 /* ImageLoader.swift in Sources */,
 				DA5F7FC42BF4526400DE7480 /* SceneDelegate.swift in Sources */,
+				DA686FA82BF45AC700745D24 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		DA5F7FC72BF4526400DE7480 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DA5F7FC82BF4526400DE7480 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		DA5F7FCC2BF4526500DE7480 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -305,6 +401,10 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-Xlinker",
+					"-interposable",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = name.woin2ee.ActiveNavigationBarExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -363,6 +463,103 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DA1917602BF47DBE00A169EC /* XCRemoteSwiftPackageReference "SFSafeSymbols" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SFSafeSymbols/SFSafeSymbols.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.2.0;
+			};
+		};
+		DA19176C2BF6532700A169EC /* XCRemoteSwiftPackageReference "TaskStore" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/woin2ee/TaskStore.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.0;
+			};
+		};
+		DA5F7FD52BF4560A00DE7480 /* XCRemoteSwiftPackageReference "Inject" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/krzysztofzablocki/Inject.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.5.0;
+			};
+		};
+		DA5F7FD82BF4565000DE7480 /* XCRemoteSwiftPackageReference "Then" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/devxoul/Then";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+		DA5F7FDB2BF4567500DE7480 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+		DA5F7FDE2BF4567E00DE7480 /* XCRemoteSwiftPackageReference "PinLayout" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/layoutBox/PinLayout";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.10.5;
+			};
+		};
+		DA686FB22BF4761400745D24 /* XCRemoteSwiftPackageReference "UIKitPlus" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Woin2ee-Modules/UIKitPlus.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DA1917612BF47DBE00A169EC /* SFSafeSymbols */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DA1917602BF47DBE00A169EC /* XCRemoteSwiftPackageReference "SFSafeSymbols" */;
+			productName = SFSafeSymbols;
+		};
+		DA19176D2BF6532700A169EC /* TaskStore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DA19176C2BF6532700A169EC /* XCRemoteSwiftPackageReference "TaskStore" */;
+			productName = TaskStore;
+		};
+		DA5F7FD62BF4560A00DE7480 /* Inject */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DA5F7FD52BF4560A00DE7480 /* XCRemoteSwiftPackageReference "Inject" */;
+			productName = Inject;
+		};
+		DA5F7FD92BF4565000DE7480 /* Then */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DA5F7FD82BF4565000DE7480 /* XCRemoteSwiftPackageReference "Then" */;
+			productName = Then;
+		};
+		DA5F7FDC2BF4567500DE7480 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DA5F7FDB2BF4567500DE7480 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		DA5F7FDF2BF4567E00DE7480 /* PinLayout */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DA5F7FDE2BF4567E00DE7480 /* XCRemoteSwiftPackageReference "PinLayout" */;
+			productName = PinLayout;
+		};
+		DA686FB32BF4761400745D24 /* UIKitPlus */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DA686FB22BF4761400745D24 /* XCRemoteSwiftPackageReference "UIKitPlus" */;
+			productName = UIKitPlus;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = DA5F7FB62BF4526400DE7480 /* Project object */;
 }

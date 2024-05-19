@@ -1,0 +1,69 @@
+{
+  "originHash" : "dca72ded99616017ca26bdda4891b66cc3bd92008621dfbeea7bda5dcfdea0c2",
+  "pins" : [
+    {
+      "identity" : "inject",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/krzysztofzablocki/Inject.git",
+      "state" : {
+        "revision" : "838e614220000a563bbaeba2974236f2c2c51e13",
+        "version" : "1.5.0"
+      }
+    },
+    {
+      "identity" : "pinlayout",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/layoutBox/PinLayout",
+      "state" : {
+        "revision" : "8eaa3a15e4dcabaca4c95aea4c0ff0c9b4a67213",
+        "version" : "1.10.5"
+      }
+    },
+    {
+      "identity" : "sfsafesymbols",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SFSafeSymbols/SFSafeSymbols.git",
+      "state" : {
+        "revision" : "afd0a1da4ed62bab1413caa6dd6b60a7a7089ed2",
+        "version" : "5.2.0"
+      }
+    },
+    {
+      "identity" : "snapkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SnapKit/SnapKit.git",
+      "state" : {
+        "revision" : "2842e6e84e82eb9a8dac0100ca90d9444b0307f4",
+        "version" : "5.7.1"
+      }
+    },
+    {
+      "identity" : "taskstore",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/woin2ee/TaskStore.git",
+      "state" : {
+        "revision" : "242f2045da02460a8562509f88ae44906958e0f2",
+        "version" : "0.1.0"
+      }
+    },
+    {
+      "identity" : "then",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/devxoul/Then",
+      "state" : {
+        "revision" : "d41ef523faef0f911369f79c0b96815d9dbb6d7a",
+        "version" : "3.0.0"
+      }
+    },
+    {
+      "identity" : "uikitplus",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Woin2ee-Modules/UIKitPlus.git",
+      "state" : {
+        "revision" : "2f4c8b392477a80272ee835b349d44022bbd3674",
+        "version" : "1.4.0"
+      }
+    }
+  ],
+  "version" : 3
+}
